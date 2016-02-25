@@ -1,0 +1,71 @@
+URxvt.scrollBar:      false
+URxvt.font:           xft:Hack:size=9
+URxvt.url-launcher:   /usr/bin/firefox
+URxvt*loginShell:     true
+URxvt*fading:         30
+URxvt.internalBorder: 0
+URxvt.externalBorder: 0
+
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+
+URxvt.depth: 32
+
+URxvt*background:                     #101218
+URxvt*foreground:                     #d1d4e0
+URxvt*cursorColor:                    #d1d4e0
+URxvt*scrollColor:                    #d1d4e0
+URxvt*highlightColor:                 #252936
+URxvt*highlightTextColor:             #C0C5CE
+
+URxvt*color0:                         #101218
+URxvt*color1:                         #ee829f
+URxvt*color2:                         #a5ffe1
+URxvt*color3:                         #ffefcc
+URxvt*color4:                         #97bbf7
+URxvt*color5:                         #c0b7f9
+URxvt*color6:                         #97e0ff
+URxvt*color7:                         #d1d4e0
+URxvt*color8:                         #7780a1
+URxvt*color9:                         #ee829f
+URxvt*color10:                        #a5ffe1
+URxvt*color11:                        #ffefcc
+URxvt*color12:                        #97bbf7
+URxvt*color13:                        #c0b7f9
+URxvt*color14:                        #97e0ff
+URxvt*color15:                        #ffffff
+
+URxvt*color16:                        #f99170
+URxvt*color17:                        #fcc09e
+URxvt*color18:                        #1f222d
+URxvt*color19:                        #252936
+URxvt*color20:                        #C0C5CE
+URxvt*color21:                        #C9CCDB
+
+
+URxvt.perl-ext-common: default,clipboard
+URxvt.iso14755: False
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.clipboard.copycmd:  xsel -ib
+URxvt.clipboard.pastecmd: xsel -ob
+
+
+! rofi -- dmenu clone
+rofi.opacity:  90
+rofi.width:    80
+rofi.lines:    15
+rofi.font:     System San Francisco Display 9
+rofi.location: 0
+rofi.padding:  5
+
+rofi.color-enabled: true
+rofi.color-window: #3F3F3F,#000000
+
+! State:           bg,     fg,     bgalt   hlbg,   hlfg
+! zenburn:         bg,     fg,     bg-05,  bg+1,   fg+1
+rofi.color-normal: #3F3F3F,#DCDCCC,#383838,#4F4F4F,#FFFFEF
+!                  blue-4, fg,     blue-5, blue-3, fg+1
+rofi.color-active: #4C7073,#DCDCCC,#366060,#5C888B,#FFFFEF
+!                  red-4,  fg,     red-5,  red-3,  fg+1
+rofi.color-urgent: #8C5353,#DCDCCC,#7C4343,#9C6363,#FFFFEF
