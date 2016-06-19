@@ -22,7 +22,7 @@
   set $workspace2 "2:"
   set $workspace3 "3:"
   set $workspace4 "4:"
-  set $workspace5 "5:"
+  set $workspace5 "5:"
   set $workspace6 "6:"
   set $workspace7 "7:"
   set $workspace8 "8:"
@@ -72,9 +72,10 @@
 
 # Program-Related Bindings
   bindsym $mod+Shift+f exec firefox
-  bindsym $mod+Return exec terminator
+  bindsym $mod+Return exec termite
   bindsym $mod+d exec rofi -show run
-  bindsym --release Print exec imgur-screenshot
+  bindsym --release Print exec scrot 
+  bindsym $mod+Shift+l exec i3lock-fancy 
   bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # Pulse Audio controls
@@ -84,7 +85,7 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute s
 
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
+bindsym XF86MonBrightnessDown exec c -dec 20 # decrease screen brightness
 
 # Touchpad controls
 bindsym XF86TouchpadToggle exec ~/.scripts/toggletouchpad.sh # toggle touchpad
@@ -99,7 +100,6 @@ bindsym XF86AudioPrev exec playerctl previous
   exec --no-startup-id nm-applet
   exec --no-startup-id dunst
   exec --no-startup-id dropbox
-  exec_always --no-startup-id feh --bg-scale ~/.wallpaper.jpg
 
 # Workspace-Related Bindings
   bindsym $mod+1 workspace $workspace1
@@ -145,6 +145,7 @@ bindsym XF86AudioPrev exec playerctl previous
   for_window [class="Lxappearance"] floating enable
   for_window [class="Seahorse"] floating enable
   for_window [class="Pavucontrol"] floating enable
+  for_window [class="Nitrogen"] floating enable
 
 # Widow Colours
 #                         border  background text    indicator
@@ -156,7 +157,8 @@ bindsym XF86AudioPrev exec playerctl previous
 # Bar
   bar {
     font pango: System San Francisco Display, FontAwesome 9
-    status_command i3blocks
+   
+    status_command i3blocks 
     position top
     strip_workspace_numbers yes
     height 20
@@ -175,8 +177,9 @@ bindsym XF86AudioPrev exec playerctl previous
   } 
 
 
-exec_always xrandr --output HDMI1 --off --output VIRTUAL1 --off --output eDP1 --mode 1366x768 --pos 0x0 --rotate normal --output VGA1 --mode 1440x900 --pos 1366x0 --rotate normal
+exec_always xrandr --output HDMI1 --mode 1440x900 --pos 1440x0 --rotate normal --output VIRTUAL1 --off --output eDP1 --off --output VGA1 --mode 1440x900 --pos 0x0 --rotate normal
 exec firefox
+exec_always compton -bcf
 exec_always redshift
 exec_always nitrogen --restore
 exec_always volti
