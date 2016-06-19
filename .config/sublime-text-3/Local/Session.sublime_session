@@ -1,0 +1,1180 @@
+{
+	"folder_history":
+	[
+		"/home/meryborn/Downloads",
+		"/home/meryborn/Repos/crudApiRuby/users",
+		"/home/meryborn/Downloads/512progs",
+		"/home/meryborn/Go/src/test",
+		"/home/meryborn/Go",
+		"/home/meryborn/Downloads/go-blog-example-part1",
+		"/home/meryborn/Go/src/golang",
+		"/home/meryborn/Work/go",
+		"/home/meryborn/Work/VkBotPy",
+		"/home/meryborn/Repos/i3web",
+		"/home/meryborn/Work/blog",
+		"/home/meryborn/Work/backbone-tut",
+		"/home/meryborn/Work/Sistema_chastic(coffescript)",
+		"/home/meryborn/Downloads/i3web",
+		"/home/meryborn/Downloads/www",
+		"/home/meryborn/Work/testing",
+		"/home/meryborn/Work/BDD",
+		"/home/meryborn/Work/PHP_CMS",
+		"/home/meryborn/Work/Cms custom"
+	],
+	"last_version": 3114,
+	"last_window_id": 7,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 846.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"Sq",
+						"Sqrt	float64 ƒ"
+					],
+					[
+						"Pri",
+						"Println	n int, err error ƒ"
+					],
+					[
+						"p",
+						"Println	n int, err error ƒ"
+					],
+					[
+						"Pr",
+						"Println	n int, err error ƒ"
+					],
+					[
+						"en",
+						"endNum	 ν"
+					],
+					[
+						"P",
+						"Print	n int, err error ƒ"
+					],
+					[
+						"Re",
+						"RemoteAddr	net.Addr ƒ"
+					],
+					[
+						"word",
+						"word_body	int ν"
+					],
+					[
+						"i",
+						"i	 ν"
+					],
+					[
+						"F",
+						"Fprintf	n int, err error ƒ"
+					],
+					[
+						"Handle",
+						"HandleFunc	 ƒ"
+					],
+					[
+						"im",
+						"import	import (...) ʂ"
+					],
+					[
+						"us",
+						"us_name	 ν"
+					],
+					[
+						"user",
+						"user_id	string ν"
+					],
+					[
+						"st",
+						"strconv	 package ρ"
+					],
+					[
+						"variadic",
+						"variadic2	interface{} ν"
+					],
+					[
+						"Ty",
+						"TypeOf	reflect.Type ƒ"
+					],
+					[
+						"err",
+						"errors	 package ρ"
+					],
+					[
+						"area",
+						"area"
+					],
+					[
+						"sli",
+						"slice1"
+					],
+					[
+						"random",
+						"random_photo"
+					],
+					[
+						"rand",
+						"rand_photo"
+					],
+					[
+						"photos",
+						"photos_count"
+					],
+					[
+						"pho",
+						"photos_count"
+					],
+					[
+						"right",
+						"right"
+					],
+					[
+						"16x",
+						"16x9"
+					],
+					[
+						"fu",
+						"function"
+					],
+					[
+						"par",
+						"particle"
+					],
+					[
+						"Par",
+						"ParticleSystem"
+					],
+					[
+						"con",
+						"constructor"
+					],
+					[
+						"d",
+						"draw"
+					],
+					[
+						"obj",
+						"obj"
+					],
+					[
+						"ob",
+						"object"
+					],
+					[
+						"can",
+						"canvasHeight"
+					],
+					[
+						"cur",
+						"cursor"
+					],
+					[
+						"back",
+						"background-image"
+					],
+					[
+						"mar",
+						"margin-top"
+					],
+					[
+						"fon",
+						"font-size"
+					],
+					[
+						"font",
+						"font-family"
+					],
+					[
+						"sys",
+						"sys_img"
+					],
+					[
+						"font-",
+						"font-size"
+					],
+					[
+						"wid",
+						"width"
+					],
+					[
+						"top_bar",
+						"top_bar_bg"
+					],
+					[
+						"top",
+						"top_bar_right_color"
+					],
+					[
+						"ex",
+						"extend	@extend"
+					],
+					[
+						"wi",
+						"width"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 400.0,
+				"last_filter": "Package Control: i",
+				"selected_items":
+				[
+					[
+						"Package Control: i",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: in",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ins",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: int",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 440.0
+			},
+			"console":
+			{
+				"height": 126.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/meryborn/Documents/Gentoo Logo Dark v1.0.png",
+				"/home/meryborn/.config/termite/config",
+				"/home/meryborn/.Xresources",
+				"/home/meryborn/.config/gtk-3.0/settings.ini",
+				"/home/meryborn/.gtkrc-2.0",
+				"/home/meryborn/.config/i3/config",
+				"/home/meryborn/Go/src/512progs/1.2/main.go",
+				"/home/meryborn/Go/src/512progs/1.3/main.go",
+				"/home/meryborn/Go/src/calculator_go/main.go",
+				"/home/meryborn/Go/src/vkbot/main.go",
+				"/home/meryborn/Go/src/webapp/main.go",
+				"/home/meryborn/Go/src/webapp/src/js.js",
+				"/home/meryborn/Go/src/webapp/src/index.html",
+				"/home/meryborn/Go/src/webapp/src",
+				"/home/meryborn/.config/sublime-text-3/Packages/GoSublime/USAGE.md",
+				"/home/meryborn/.config/sublime-text-3/Packages/User/GoSublime.sublime-settings",
+				"/home/meryborn/.config/sublime-text-3/Packages/User/golang.sublime-settings",
+				"/home/meryborn/.vkrc",
+				"/home/meryborn/Downloads/Windows XP Pro sp3 VL (MSDN)/Keys.txt",
+				"/home/meryborn/Go/src/webapp/go-blog-example/main.go",
+				"/home/meryborn/Go/src/fb/main.go",
+				"/home/meryborn/Downloads/512progs/1.2/main.go",
+				"/home/meryborn/.bash_profile",
+				"/home/meryborn/Go/src/fb/api/api.go",
+				"/home/meryborn/.bashrc",
+				"/home/meryborn/Repos/crudApiRuby/.bashrc",
+				"/home/meryborn/Go/src/fbbot",
+				"/home/meryborn/.config/sublime-text-3/Packages/GoSublime/CHANGELOG.md",
+				"/home/meryborn/Repos/golang_vkbot/main.go",
+				"/home/meryborn/Go/src/group_post/main.go",
+				"/home/meryborn/Go/src/test/main.go",
+				"/home/meryborn/Work/VkKonfBot/bot-vk.js",
+				"/home/meryborn/Work/VkKonfBot/api-vk.js",
+				"/home/meryborn/Work/VkKonfBot/launch.js",
+				"/home/meryborn/Go/src/group_post/vkapi/api.go",
+				"/home/meryborn/Downloads/optica.txt",
+				"/home/meryborn/Go/src/webapp/vkapi/api.go",
+				"/home/meryborn/Go/src/webapp/test.go",
+				"/home/meryborn/Work/VkBotPy/launch.py",
+				"/home/meryborn/Go/src/webapp/main(backup).go",
+				"/home/meryborn/Go/src/test/vk.go",
+				"/home/meryborn/Go/src/test/bot.go",
+				"/home/meryborn/Go/src/golang/main.go",
+				"/home/meryborn/Go/src/golang/vkapi/api.go",
+				"/home/meryborn/Go/src/golang/vkapi.go",
+				"/home/meryborn/Downloads/go-blog-example-part1/templates/index.html",
+				"/home/meryborn/Downloads/go-blog-example-part1/main.go",
+				"/home/meryborn/Go/src/golang/chapter11/main.go",
+				"/home/meryborn/Work/go/main.go",
+				"/home/meryborn/Work/go/math.go",
+				"/home/meryborn/.i3blocks.conf",
+				"/home/meryborn/.scripts/current_track",
+				"/home/meryborn/Work/VkKonfBot/scripts/music.js",
+				"/home/meryborn/Work/VkBotPy/random_photo.py",
+				"/home/meryborn/Work/vk_bot.py",
+				"/home/meryborn/.xinitrc",
+				"/home/meryborn/Dropbox/script.sh",
+				"/home/meryborn/.emacs",
+				"/home/meryborn/Downloads/ergoemacs/_READ_ME.txt",
+				"/home/meryborn/Downloads/Earth Quaking Text Effect/Font.txt",
+				"/home/meryborn/Downloads/MAGIC MONEY/­áâàãªæ¨ï.txt",
+				"/home/meryborn/Work/backbone-tut/index.html",
+				"/home/meryborn/Work/backbone-tut/css/style.css",
+				"/home/meryborn/Work/backbone-tut/js/main.js",
+				"/home/meryborn/Repos/i3web/index.jade",
+				"/home/meryborn/Repos/romaniukvadim.github.io/start/index.html",
+				"/home/meryborn/Work/blog/_includes/header.html",
+				"/home/meryborn/Documents/meryborn/portfolio/works/old_page/css/style.css",
+				"/home/meryborn/Documents/meryborn/index.html",
+				"/home/meryborn/Documents/meryborn/portfolio/works/old_page/js/main.js",
+				"/home/meryborn/Work/blog/_config.yml",
+				"/home/meryborn/Work/blog/_posts/2016-05-12-welcome-to-jekyll.markdown",
+				"/home/meryborn/Documents/meryborn/blog/index.html",
+				"/home/meryborn/Documents/meryborn/portfolio/works/old_page/index.html",
+				"/home/meryborn/Documents/meryborn/startpage/index.html",
+				"/home/meryborn/Documents/meryborn/portfolio/index_ru.html",
+				"/home/meryborn/Documents/meryborn/portfolio/index.html",
+				"/home/meryborn/Work/coffee-script/main.coffee",
+				"/home/meryborn/Documents/meryborn/random/amv/script.sh",
+				"/home/meryborn/Documents/meryborn/random/webm.html",
+				"/home/meryborn/Documents/meryborn/training/index.html",
+				"/home/meryborn/Documents/meryborn/contact/index.html",
+				"/home/meryborn/Documents/meryborn/random/amv/sc.sh",
+				"/home/meryborn/Documents/script.sh",
+				"/home/meryborn/Documents/meryborn/random/amv/names.txt",
+				"/home/meryborn/Repos/i3web/sass/style.scss",
+				"/home/meryborn/Documents/meryborn/start/css/style.css",
+				"/home/meryborn/Work/blog/contacts.md",
+				"/home/meryborn/Work/blog/_site/about/index.html",
+				"/home/meryborn/Work/blog/css/main.scss",
+				"/home/meryborn/Work/blog/_includes/footer.html",
+				"/home/meryborn/Repos/i3web/index.html",
+				"/home/meryborn/Work/blog/_site/index.html",
+				"/home/meryborn/Repos/romaniukvadim.github.io/.git/config",
+				"/home/meryborn/Downloads/Портфолио/css/main.css",
+				"/home/meryborn/Work/blog/download.md",
+				"/home/meryborn/Downloads/Портфолио/index.html",
+				"/home/meryborn/Dropbox/scripts/wallhaven.sh",
+				"/home/meryborn/Downloads/wallhaven.sh",
+				"/run/media/meryborn/301FCF061B9C3613/wallhaven/downloaded.txt",
+				"/home/meryborn/Dropbox/scripts/for_wallhaven.sh",
+				"/home/meryborn/Downloads/4d00293fad5fee706f6059e2405f67e55b6fcc17e31a55221b9d25b34636fd0d.m3u",
+				"/home/meryborn/.screenlayout/screen1.sh",
+				"/home/meryborn/Work/Sistema_chastic(coffescript)/js/main.js",
+				"/home/meryborn/Work/Sistema_chastic(coffescript)/index.html",
+				"/home/meryborn/Work/Sistema_chastic(coffescript)/css/style.css",
+				"/home/meryborn/Work/Sistema_chastic(coffescript)/coffee/main.coffee",
+				"/home/meryborn/Downloads/i3web/index.html",
+				"/home/meryborn/Downloads/i3web/sass/style.scss",
+				"/home/meryborn/Downloads/i3web/index.jade",
+				"/home/meryborn/Work/coffee-script/main.js",
+				"/home/meryborn/Work/main.coffee",
+				"/home/meryborn/Downloads/www/index.jade",
+				"/home/meryborn/Downloads/www/sass/style.scss",
+				"/home/meryborn/Downloads/www/index.html",
+				"/home/meryborn/Downloads/www/js/time.js",
+				"/home/meryborn/Downloads/www/css/style.css",
+				"/home/meryborn/Downloads/www/sass/__normalize.scss",
+				"/home/meryborn/Downloads/www/css/main.css",
+				"/home/meryborn/Downloads/www/config.rb",
+				"/home/meryborn/Downloads/www/style.css",
+				"/home/meryborn/Work/mm/templates/rt_mediamogul_j15/js/roksameheight-mt1.2.js",
+				"/home/meryborn/Work/testing/src/test.js",
+				"/home/meryborn/Work/testing/SpecRunner.html",
+				"/home/meryborn/Work/testing/spec/testSpec.js",
+				"/home/meryborn/vk/dub.selections.json",
+				"/home/meryborn/Work/PHP_CMS/lib/config_class.php",
+				"/home/meryborn/Work/PHP_CMS/core/abstractdatabase_class.php"
+			],
+			"find":
+			{
+				"height": 38.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"mas",
+					"alert",
+					"panic",
+					"fmt",
+					"MyJsonStruct",
+					"vkapi",
+					"liked_posts",
+					"vkapi",
+					"232317814",
+					"vkapi",
+					"vkapi\n",
+					")):\n",
+					"a href=\"htt",
+					"target=\"_blank\"",
+					"get_in_touch",
+					".mp4",
+					"//\n",
+					"d"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"arrayOfNumbers",
+					"console.log",
+					"fmt.Print",
+					"api",
+					"a onclick=\"return !window.open(this.href)\" href=\"htt",
+					"onclick=\"return !window.open(this.href)\""
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 22.0
+			},
+			"input":
+			{
+				"height": 34.0
+			},
+			"menu_visible": true,
+			"output.MarGo-output":
+			{
+				"height": 98.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 72.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 101.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 698.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"Sq",
+						"Sqrt	float64 ƒ"
+					],
+					[
+						"Pri",
+						"Println	n int, err error ƒ"
+					],
+					[
+						"p",
+						"Println	n int, err error ƒ"
+					],
+					[
+						"Pr",
+						"Println	n int, err error ƒ"
+					],
+					[
+						"en",
+						"endNum	 ν"
+					],
+					[
+						"P",
+						"Print	n int, err error ƒ"
+					],
+					[
+						"Re",
+						"RemoteAddr	net.Addr ƒ"
+					],
+					[
+						"word",
+						"word_body	int ν"
+					],
+					[
+						"i",
+						"i	 ν"
+					],
+					[
+						"F",
+						"Fprintf	n int, err error ƒ"
+					],
+					[
+						"Handle",
+						"HandleFunc	 ƒ"
+					],
+					[
+						"im",
+						"import	import (...) ʂ"
+					],
+					[
+						"us",
+						"us_name	 ν"
+					],
+					[
+						"user",
+						"user_id	string ν"
+					],
+					[
+						"st",
+						"strconv	 package ρ"
+					],
+					[
+						"variadic",
+						"variadic2	interface{} ν"
+					],
+					[
+						"Ty",
+						"TypeOf	reflect.Type ƒ"
+					],
+					[
+						"err",
+						"errors	 package ρ"
+					],
+					[
+						"area",
+						"area"
+					],
+					[
+						"sli",
+						"slice1"
+					],
+					[
+						"random",
+						"random_photo"
+					],
+					[
+						"rand",
+						"rand_photo"
+					],
+					[
+						"photos",
+						"photos_count"
+					],
+					[
+						"pho",
+						"photos_count"
+					],
+					[
+						"right",
+						"right"
+					],
+					[
+						"16x",
+						"16x9"
+					],
+					[
+						"fu",
+						"function"
+					],
+					[
+						"par",
+						"particle"
+					],
+					[
+						"Par",
+						"ParticleSystem"
+					],
+					[
+						"con",
+						"constructor"
+					],
+					[
+						"d",
+						"draw"
+					],
+					[
+						"obj",
+						"obj"
+					],
+					[
+						"ob",
+						"object"
+					],
+					[
+						"can",
+						"canvasHeight"
+					],
+					[
+						"cur",
+						"cursor"
+					],
+					[
+						"back",
+						"background-image"
+					],
+					[
+						"mar",
+						"margin-top"
+					],
+					[
+						"fon",
+						"font-size"
+					],
+					[
+						"font",
+						"font-family"
+					],
+					[
+						"sys",
+						"sys_img"
+					],
+					[
+						"font-",
+						"font-size"
+					],
+					[
+						"wid",
+						"width"
+					],
+					[
+						"top_bar",
+						"top_bar_bg"
+					],
+					[
+						"top",
+						"top_bar_right_color"
+					],
+					[
+						"ex",
+						"extend	@extend"
+					],
+					[
+						"wi",
+						"width"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/meryborn/Dropbox/wifi_hack.txt",
+					"settings":
+					{
+						"buffer_size": 1315,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/meryborn/Downloads/pass/merged.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/meryborn/Downloads/files_869913_1080.txt",
+					"settings":
+					{
+						"buffer_size": 1179,
+						"line_ending": "Windows"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 400.0,
+				"last_filter": "Package Control: i",
+				"selected_items":
+				[
+					[
+						"Package Control: i",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: in",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ins",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: int",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 440.0
+			},
+			"console":
+			{
+				"height": 126.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/meryborn/Go",
+				"/home/meryborn/Go/pkg",
+				"/home/meryborn/Go/src",
+				"/home/meryborn/Go/src/calculator_go"
+			],
+			"file_history":
+			[
+				"/home/meryborn/Dropbox/wifi_hack.txt",
+				"/home/meryborn/Downloads/wili_list/darkc0de.lst",
+				"/home/meryborn/Dropbox/scripts/gentoo_handbook_pdf.sh",
+				"/home/meryborn/Dropbox/scripts/gentoo_handbook.pdf",
+				"/home/meryborn/Downloads/SecLists/Passwords/passwords_youporn2012_raw.txt",
+				"/home/meryborn/Downloads/SecLists/Passwords/passwords_john.txt",
+				"/home/meryborn/Downloads/SecLists/Passwords/MostPopularLetterPasses.txt",
+				"/home/meryborn/Downloads/SecLists/Passwords/KeyboardCombinations.txt",
+				"/home/meryborn/Downloads/SecLists/Passwords/darkc0de.txt",
+				"/home/meryborn/Downloads/SecLists/Passwords/alleged-gmail-passwords.txt",
+				"/home/meryborn/Downloads/SecLists/Passwords/500-worst-passwords.txt",
+				"/home/meryborn/Downloads/SecLists/Passwords/withcount/porn-unknown-withcount.txt",
+				"/home/meryborn/Downloads/SecLists/Passwords/hak5.txt",
+				"/home/meryborn/Downloads/SecLists/Passwords/10_million_password_list_top_100.txt",
+				"/home/meryborn/Downloads/SecLists/Passwords/common-passwords-win.txt",
+				"/home/meryborn/Downloads/SecLists/Passwords/10k_most_common.txt",
+				"/home/meryborn/Downloads/SecLists/Miscellaneous/common-http-ports.txt",
+				"/home/meryborn/Downloads/SecLists/Passwords/Ashley_Madison.txt",
+				"/home/meryborn/Downloads/SecLists/Passwords/bible.txt",
+				"/home/meryborn/Downloads/SecLists/Passwords/hotmail.txt",
+				"/home/meryborn/Downloads/SecLists/Passwords/wordpress_attacks_july2014.txt",
+				"/home/meryborn/.cache/.fr-ySXEy2/rockyou.txt",
+				"/home/meryborn/Downloads/SecLists/Pattern_Matching/README",
+				"/home/meryborn/Downloads/jourfuck-handshake.txt",
+				"/home/meryborn/Downloads/realuniq.lst",
+				"/home/meryborn/Downloads/pass.txt",
+				"/home/meryborn/Documents/Gentoo Logo Dark v1.0.png",
+				"/home/meryborn/.config/termite/config",
+				"/home/meryborn/.Xresources",
+				"/home/meryborn/.config/gtk-3.0/settings.ini",
+				"/home/meryborn/.gtkrc-2.0",
+				"/home/meryborn/.config/i3/config",
+				"/home/meryborn/Go/src/512progs/1.2/main.go",
+				"/home/meryborn/Go/src/512progs/1.3/main.go",
+				"/home/meryborn/Go/src/calculator_go/main.go",
+				"/home/meryborn/Go/src/vkbot/main.go",
+				"/home/meryborn/Go/src/webapp/main.go",
+				"/home/meryborn/Go/src/webapp/src/js.js",
+				"/home/meryborn/Go/src/webapp/src/index.html",
+				"/home/meryborn/Go/src/webapp/src",
+				"/home/meryborn/.config/sublime-text-3/Packages/GoSublime/USAGE.md",
+				"/home/meryborn/.config/sublime-text-3/Packages/User/GoSublime.sublime-settings",
+				"/home/meryborn/.config/sublime-text-3/Packages/User/golang.sublime-settings",
+				"/home/meryborn/.vkrc",
+				"/home/meryborn/Downloads/Windows XP Pro sp3 VL (MSDN)/Keys.txt",
+				"/home/meryborn/Go/src/webapp/go-blog-example/main.go",
+				"/home/meryborn/Go/src/fb/main.go",
+				"/home/meryborn/Downloads/512progs/1.2/main.go",
+				"/home/meryborn/.bash_profile",
+				"/home/meryborn/Go/src/fb/api/api.go",
+				"/home/meryborn/.bashrc",
+				"/home/meryborn/Repos/crudApiRuby/.bashrc",
+				"/home/meryborn/Go/src/fbbot",
+				"/home/meryborn/.config/sublime-text-3/Packages/GoSublime/CHANGELOG.md",
+				"/home/meryborn/Repos/golang_vkbot/main.go",
+				"/home/meryborn/Go/src/group_post/main.go",
+				"/home/meryborn/Go/src/test/main.go",
+				"/home/meryborn/Work/VkKonfBot/bot-vk.js",
+				"/home/meryborn/Work/VkKonfBot/api-vk.js",
+				"/home/meryborn/Work/VkKonfBot/launch.js",
+				"/home/meryborn/Go/src/group_post/vkapi/api.go",
+				"/home/meryborn/Downloads/optica.txt",
+				"/home/meryborn/Go/src/webapp/vkapi/api.go",
+				"/home/meryborn/Go/src/webapp/test.go",
+				"/home/meryborn/Work/VkBotPy/launch.py",
+				"/home/meryborn/Go/src/webapp/main(backup).go",
+				"/home/meryborn/Go/src/test/vk.go",
+				"/home/meryborn/Go/src/test/bot.go",
+				"/home/meryborn/Go/src/golang/main.go",
+				"/home/meryborn/Go/src/golang/vkapi/api.go",
+				"/home/meryborn/Go/src/golang/vkapi.go",
+				"/home/meryborn/Downloads/go-blog-example-part1/templates/index.html",
+				"/home/meryborn/Downloads/go-blog-example-part1/main.go",
+				"/home/meryborn/Go/src/golang/chapter11/main.go",
+				"/home/meryborn/Work/go/main.go",
+				"/home/meryborn/Work/go/math.go",
+				"/home/meryborn/.i3blocks.conf",
+				"/home/meryborn/.scripts/current_track",
+				"/home/meryborn/Work/VkKonfBot/scripts/music.js",
+				"/home/meryborn/Work/VkBotPy/random_photo.py",
+				"/home/meryborn/Work/vk_bot.py",
+				"/home/meryborn/.xinitrc",
+				"/home/meryborn/Dropbox/script.sh",
+				"/home/meryborn/.emacs",
+				"/home/meryborn/Downloads/ergoemacs/_READ_ME.txt",
+				"/home/meryborn/Downloads/Earth Quaking Text Effect/Font.txt",
+				"/home/meryborn/Downloads/MAGIC MONEY/­áâàãªæ¨ï.txt",
+				"/home/meryborn/Work/backbone-tut/index.html",
+				"/home/meryborn/Work/backbone-tut/css/style.css",
+				"/home/meryborn/Work/backbone-tut/js/main.js",
+				"/home/meryborn/Repos/i3web/index.jade",
+				"/home/meryborn/Repos/romaniukvadim.github.io/start/index.html",
+				"/home/meryborn/Work/blog/_includes/header.html",
+				"/home/meryborn/Documents/meryborn/portfolio/works/old_page/css/style.css",
+				"/home/meryborn/Documents/meryborn/index.html",
+				"/home/meryborn/Documents/meryborn/portfolio/works/old_page/js/main.js",
+				"/home/meryborn/Work/blog/_config.yml",
+				"/home/meryborn/Work/blog/_posts/2016-05-12-welcome-to-jekyll.markdown",
+				"/home/meryborn/Documents/meryborn/blog/index.html",
+				"/home/meryborn/Documents/meryborn/portfolio/works/old_page/index.html",
+				"/home/meryborn/Documents/meryborn/startpage/index.html",
+				"/home/meryborn/Documents/meryborn/portfolio/index_ru.html",
+				"/home/meryborn/Documents/meryborn/portfolio/index.html",
+				"/home/meryborn/Work/coffee-script/main.coffee",
+				"/home/meryborn/Documents/meryborn/random/amv/script.sh",
+				"/home/meryborn/Documents/meryborn/random/webm.html",
+				"/home/meryborn/Documents/meryborn/training/index.html",
+				"/home/meryborn/Documents/meryborn/contact/index.html",
+				"/home/meryborn/Documents/meryborn/random/amv/sc.sh",
+				"/home/meryborn/Documents/script.sh",
+				"/home/meryborn/Documents/meryborn/random/amv/names.txt",
+				"/home/meryborn/Repos/i3web/sass/style.scss",
+				"/home/meryborn/Documents/meryborn/start/css/style.css",
+				"/home/meryborn/Work/blog/contacts.md",
+				"/home/meryborn/Work/blog/_site/about/index.html",
+				"/home/meryborn/Work/blog/css/main.scss",
+				"/home/meryborn/Work/blog/_includes/footer.html",
+				"/home/meryborn/Repos/i3web/index.html",
+				"/home/meryborn/Work/blog/_site/index.html",
+				"/home/meryborn/Repos/romaniukvadim.github.io/.git/config",
+				"/home/meryborn/Downloads/Портфолио/css/main.css",
+				"/home/meryborn/Work/blog/download.md",
+				"/home/meryborn/Downloads/Портфолио/index.html",
+				"/home/meryborn/Dropbox/scripts/wallhaven.sh",
+				"/home/meryborn/Downloads/wallhaven.sh",
+				"/run/media/meryborn/301FCF061B9C3613/wallhaven/downloaded.txt",
+				"/home/meryborn/Dropbox/scripts/for_wallhaven.sh",
+				"/home/meryborn/Downloads/4d00293fad5fee706f6059e2405f67e55b6fcc17e31a55221b9d25b34636fd0d.m3u"
+			],
+			"find":
+			{
+				"height": 38.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"mas",
+					"alert",
+					"panic",
+					"fmt",
+					"MyJsonStruct",
+					"vkapi",
+					"liked_posts",
+					"vkapi",
+					"232317814",
+					"vkapi",
+					"vkapi\n",
+					")):\n",
+					"a href=\"htt",
+					"target=\"_blank\"",
+					"get_in_touch",
+					".mp4",
+					"//\n",
+					"d"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"arrayOfNumbers",
+					"console.log",
+					"fmt.Print",
+					"api",
+					"a onclick=\"return !window.open(this.href)\" href=\"htt",
+					"onclick=\"return !window.open(this.href)\""
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/meryborn/Go"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 2,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/meryborn/Dropbox/wifi_hack.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1315,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/meryborn/Downloads/pass/merged.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 0,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/meryborn/Downloads/files_869913_1080.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1179,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 22.0
+			},
+			"input":
+			{
+				"height": 34.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.MarGo-output":
+			{
+				"height": 98.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,2165,37,2863,883,2880,900",
+			"project": "",
+			"replace":
+			{
+				"height": 72.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 101.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 3,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

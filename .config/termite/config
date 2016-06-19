@@ -1,0 +1,5 @@
+[options]
+font = Terminus (TTF) 10
+[colors]
+foreground = #B5B5B5
+background = rgba(0, 0, 0, 0.8)

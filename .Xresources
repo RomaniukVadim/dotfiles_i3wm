@@ -53,19 +53,16 @@ URxvt.clipboard.pastecmd: xsel -ob
 
 ! rofi -- dmenu clone
 rofi.opacity:  90
-rofi.width:    80
-rofi.lines:    15
+rofi.width:    70
+rofi.lines:    10
 rofi.font:     System San Francisco Display 9
 rofi.location: 0
-rofi.padding:  5
+rofi.padding:  7
 
 rofi.color-enabled: true
-rofi.color-window: #3F3F3F,#000000
+rofi.color-window: #222222,#959595
 
-! State:           bg,     fg,     bgalt   hlbg,   hlfg
-! zenburn:         bg,     fg,     bg-05,  bg+1,   fg+1
-rofi.color-normal: #3F3F3F,#DCDCCC,#383838,#4F4F4F,#FFFFEF
-!                  blue-4, fg,     blue-5, blue-3, fg+1
-rofi.color-active: #4C7073,#DCDCCC,#366060,#5C888B,#FFFFEF
-!                  red-4,  fg,     red-5,  red-3,  fg+1
-rofi.color-urgent: #8C5353,#DCDCCC,#7C4343,#9C6363,#FFFFEF
+rofi.color-window: #000000, #454545, #414141
+rofi.color-normal: #000000, #ffffff, argb:0323232, argb:57586e75, #eee8d5
+rofi.color-active: argb:0323232, #268bd2, argb:0eee8d5, #1c1c1c, #fdf6e3
+rofi.color-urgent: #000000, #c89493, argb:0323232, #2d2d2d, #fdf6e3

@@ -1,0 +1,757 @@
+
+** 2016-05-28 20:05:57.296956 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/lib/go/pkg/linux_amd64", GOOS:"linux", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/lib/go", GOPATH:"", InstallSuffix:""}
+
+** 2016-05-28 20:08:21.694108 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/lib/go/pkg/linux_amd64", GOOS:"linux", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/lib/go", GOPATH:"", InstallSuffix:""}
+margo: 2016/05/29 03:19:53 broker.go:105: gocode_complete#mg9.autoken.8417a8bc-75a0-4bc6-bb9d-f9e77dda7d95 PANIC: interface conversion: ast.Expr is *ast.BadExpr, not *ast.Ident
+goroutine 93 [running]:
+disposa.blue/cmd/margo_pkg.(*Broker).call.func1(0xc8207aa040, 0xc82000a1c0)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:104 +0xb2
+panic(0x99b360, 0xc820896cc0)
+	/usr/lib/go/src/runtime/panic.go:443 +0x4e9
+disposa.blue/something-borrowed/gocode.method_of(0x7f523b4ade80, 0xc820134780, 0x0, 0x0)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/decl.go:333 +0x21e
+disposa.blue/something-borrowed/gocode.append_to_top_decls.func1(0xc820836a50)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/declcache.go:129 +0x1db
+disposa.blue/something-borrowed/gocode.foreach_decl(0x7f523b4ade80, 0xc820134780, 0xc8206af6e8)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/decl.go:1318 +0x257
+disposa.blue/something-borrowed/gocode.append_to_top_decls(0xc820134840, 0x7f523b4ade80, 0xc820134780, 0xc8202c5220)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/declcache.go:148 +0x59
+disposa.blue/something-borrowed/gocode.(*auto_complete_file).process_data(0xc82000aaf0, 0xc8206e6480, 0x166, 0x166)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletefile.go:86 +0x58e
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).apropos(0xc8200f7a80, 0xc8206e6300, 0x165, 0x180, 0xc82078af90, 0x24, 0xc1, 0x0, 0x0, 0x0, ...)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:298 +0x2a2
+disposa.blue/something-borrowed/gocode.(*margoState).Complete(0xc8200ae580, 0xc8202c4100, 0x0, 0x0, 0xc8202c4153, 0xb, 0xd44cd0, 0x0, 0x0, 0xc8206e6300, ...)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/gosublime_gocode_bridge.go:78 +0x187
+disposa.blue/cmd/margo_pkg.(*mGocode).completions(0xc820880180, 0xc8206e6300, 0x165, 0x180, 0xc82078af90, 0x24, 0xc1, 0x0, 0x0, 0x0)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:95 +0x1c2
+disposa.blue/cmd/margo_pkg.(*mGocode).Call(0xc820880180, 0x0, 0x0, 0x0, 0x0)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:76 +0x7e7
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc82000a1c0, 0xc8207aa040, 0x7f523b4f2500, 0xc820880180)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0x95
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xdb
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 1 [syscall]:
+syscall.Syscall(0x0, 0x0, 0xc820148000, 0x1000, 0x0, 0x0, 0xc8207ea000)
+	/usr/lib/go/src/syscall/asm_linux_amd64.s:18 +0x5
+syscall.read(0x0, 0xc820148000, 0x1000, 0x1000, 0xc8207ea2c1, 0x0, 0x0)
+	/usr/lib/go/src/syscall/zsyscall_linux_amd64.go:783 +0x5f
+syscall.Read(0x0, 0xc820148000, 0x1000, 0x1000, 0x7f523b53c000, 0x0, 0x0)
+	/usr/lib/go/src/syscall/syscall_unix.go:161 +0x4d
+os.(*File).read(0xc82002e008, 0xc820148000, 0x1000, 0x1000, 0x48ae7b, 0x0, 0x0)
+	/usr/lib/go/src/os/file_unix.go:228 +0x53
+os.(*File).Read(0xc82002e008, 0xc820148000, 0x1000, 0x1000, 0x8, 0x0, 0x0)
+	/usr/lib/go/src/os/file.go:95 +0x8a
+bufio.(*Reader).fill(0xc8200162a0)
+	/usr/lib/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).ReadSlice(0xc8200162a0, 0x42e20a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/usr/lib/go/src/bufio/bufio.go:328 +0x21a
+bufio.(*Reader).ReadBytes(0xc8200162a0, 0xc82015a00a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/usr/lib/go/src/bufio/bufio.go:406 +0xa9
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc82000a1c0, 0xc82015a000, 0xc82000a100)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x44
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc82000a1c0, 0xb50001)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x332
+disposa.blue/cmd/margo_pkg.Main()
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0xbd7
+main.main()
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x14
+
+goroutine 12 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 50 [chan receive, 2 minutes]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc82002e1a8)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:176 +0x7b
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:180 +0x88
+
+goroutine 65 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x96
+created by disposa.blue/cmd/margo_pkg.init.2
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x2b
+
+goroutine 66 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	/usr/lib/go/src/runtime/time.go:59 +0xf9
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:31 +0x43d
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x35
+
+goroutine 67 [sleep]:
+time.Sleep(0x6fc23ac00)
+	/usr/lib/go/src/runtime/time.go:59 +0xf9
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc82000a1c0, 0xc8200f20f0)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x33
+created by disposa.blue/cmd/margo_pkg.Main
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0xb7b
+
+goroutine 68 [chan receive, 430 minutes]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc82000a1c0)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x94
+created by disposa.blue/cmd/margo_pkg.Main
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0xba0
+
+goroutine 13 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 14 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 15 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 16 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 81 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 82 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 83 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 84 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 85 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 86 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 87 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 88 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 89 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 90 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 91 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 92 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 94 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 95 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+
+
+** 2016-05-29 03:19:53.014680 **:
+GsComplete: broker: gocode_complete#mg9.autoken.8417a8bc-75a0-4bc6-bb9d-f9e77dda7d95 PANIC
+--------------------------------
+margo: 2016/05/29 03:19:53 broker.go:105: gocode_complete#mg9.autoken.b4f94768-ec43-44a9-a5d0-d55634aa65ea PANIC: interface conversion: ast.Expr is *ast.BadExpr, not *ast.Ident
+goroutine 14 [running]:
+disposa.blue/cmd/margo_pkg.(*Broker).call.func1(0xc8207aa820, 0xc82000a1c0)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:104 +0xb2
+panic(0x99b360, 0xc8202b5940)
+	/usr/lib/go/src/runtime/panic.go:443 +0x4e9
+disposa.blue/something-borrowed/gocode.method_of(0x7f523b4ade80, 0xc82078a420, 0x0, 0x0)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/decl.go:333 +0x21e
+disposa.blue/something-borrowed/gocode.append_to_top_decls.func1(0xc820836a00)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/declcache.go:129 +0x1db
+disposa.blue/something-borrowed/gocode.foreach_decl(0x7f523b4ade80, 0xc82078a420, 0xc8206ab6e8)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/decl.go:1318 +0x257
+disposa.blue/something-borrowed/gocode.append_to_top_decls(0xc82078b200, 0x7f523b4ade80, 0xc82078a420, 0xc820776340)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/declcache.go:148 +0x59
+disposa.blue/something-borrowed/gocode.(*auto_complete_file).process_data(0xc82000aaf0, 0xc8207e6000, 0x167, 0x167)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletefile.go:86 +0x58e
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).apropos(0xc8200f7a80, 0xc8202d6780, 0x166, 0x180, 0xc8202c6060, 0x24, 0xc1, 0x0, 0x0, 0x0, ...)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:298 +0x2a2
+disposa.blue/something-borrowed/gocode.(*margoState).Complete(0xc8200ae580, 0xc8207a9a00, 0x0, 0x0, 0xc8207a9ab3, 0xb, 0xd44cd0, 0x0, 0x0, 0xc8202d6780, ...)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/gosublime_gocode_bridge.go:78 +0x187
+disposa.blue/cmd/margo_pkg.(*mGocode).completions(0xc8206b0380, 0xc8202d6780, 0x166, 0x180, 0xc8202c6060, 0x24, 0xc1, 0x0, 0x0, 0x0)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:95 +0x1c2
+disposa.blue/cmd/margo_pkg.(*mGocode).Call(0xc8206b0380, 0x0, 0x0, 0x0, 0x0)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:76 +0x7e7
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc82000a1c0, 0xc8207aa820, 0x7f523b4f2500, 0xc8206b0380)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0x95
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xdb
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 1 [syscall]:
+syscall.Syscall(0x0, 0x0, 0xc820148000, 0x1000, 0x0, 0x0, 0xc8207fc000)
+	/usr/lib/go/src/syscall/asm_linux_amd64.s:18 +0x5
+syscall.read(0x0, 0xc820148000, 0x1000, 0x1000, 0xc8207fc2c2, 0x0, 0x0)
+	/usr/lib/go/src/syscall/zsyscall_linux_amd64.go:783 +0x5f
+syscall.Read(0x0, 0xc820148000, 0x1000, 0x1000, 0x7f523b53c000, 0x0, 0x0)
+	/usr/lib/go/src/syscall/syscall_unix.go:161 +0x4d
+os.(*File).read(0xc82002e008, 0xc820148000, 0x1000, 0x1000, 0x48ae7b, 0x0, 0x0)
+	/usr/lib/go/src/os/file_unix.go:228 +0x53
+os.(*File).Read(0xc82002e008, 0xc820148000, 0x1000, 0x1000, 0x4511a0, 0x0, 0x0)
+	/usr/lib/go/src/os/file.go:95 +0x8a
+bufio.(*Reader).fill(0xc8200162a0)
+	/usr/lib/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).ReadSlice(0xc8200162a0, 0x42e20a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/usr/lib/go/src/bufio/bufio.go:328 +0x21a
+bufio.(*Reader).ReadBytes(0xc8200162a0, 0xc82015a00a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/usr/lib/go/src/bufio/bufio.go:406 +0xa9
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc82000a1c0, 0xc82015a000, 0xc82000a100)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x44
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc82000a1c0, 0xb50001)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x332
+disposa.blue/cmd/margo_pkg.Main()
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0xbd7
+main.main()
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x14
+
+goroutine 12 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 50 [chan receive, 2 minutes]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc82002e1a8)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:176 +0x7b
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:180 +0x88
+
+goroutine 65 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x96
+created by disposa.blue/cmd/margo_pkg.init.2
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x2b
+
+goroutine 66 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	/usr/lib/go/src/runtime/time.go:59 +0xf9
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:31 +0x43d
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x35
+
+goroutine 67 [sleep]:
+time.Sleep(0x6fc23ac00)
+	/usr/lib/go/src/runtime/time.go:59 +0xf9
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc82000a1c0, 0xc8200f20f0)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x33
+created by disposa.blue/cmd/margo_pkg.Main
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0xb7b
+
+goroutine 68 [chan receive, 430 minutes]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc82000a1c0)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x94
+created by disposa.blue/cmd/margo_pkg.Main
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0xba0
+
+goroutine 13 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 15 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 16 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 81 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 82 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 83 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 84 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 85 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 86 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 87 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 88 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 89 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 90 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 91 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 92 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 93 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 94 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 95 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+
+
+** 2016-05-29 03:19:53.805085 **:
+GsComplete: broker: gocode_complete#mg9.autoken.b4f94768-ec43-44a9-a5d0-d55634aa65ea PANIC
+--------------------------------
+margo: 2016/05/29 03:19:54 broker.go:105: gocode_complete#mg9.autoken.c1938949-54d3-434f-9ee4-b9ace4c3c37e PANIC: interface conversion: ast.Expr is *ast.BadExpr, not *ast.Ident
+goroutine 95 [running]:
+disposa.blue/cmd/margo_pkg.(*Broker).call.func1(0xc8207bee40, 0xc82000a1c0)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:104 +0xb2
+panic(0x99b360, 0xc8208155c0)
+	/usr/lib/go/src/runtime/panic.go:443 +0x4e9
+disposa.blue/something-borrowed/gocode.method_of(0x7f523b4ade80, 0xc820128330, 0x0, 0x0)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/decl.go:333 +0x21e
+disposa.blue/something-borrowed/gocode.append_to_top_decls.func1(0xc820836aa0)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/declcache.go:129 +0x1db
+disposa.blue/something-borrowed/gocode.foreach_decl(0x7f523b4ade80, 0xc820128330, 0xc8206af6e8)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/decl.go:1318 +0x257
+disposa.blue/something-borrowed/gocode.append_to_top_decls(0xc820128600, 0x7f523b4ade80, 0xc820128330, 0xc8207a3700)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/declcache.go:148 +0x59
+disposa.blue/something-borrowed/gocode.(*auto_complete_file).process_data(0xc82000aaf0, 0xc8202d7200, 0x168, 0x168)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletefile.go:86 +0x58e
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).apropos(0xc8200f7a80, 0xc8202d6c00, 0x167, 0x180, 0xc82078b8c0, 0x24, 0xc1, 0x0, 0x0, 0x0, ...)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:298 +0x2a2
+disposa.blue/something-borrowed/gocode.(*margoState).Complete(0xc8200ae580, 0xc8207a2000, 0x0, 0x0, 0xc8207a20a0, 0xb, 0xd44cd0, 0x0, 0x0, 0xc8202d6c00, ...)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/gosublime_gocode_bridge.go:78 +0x187
+disposa.blue/cmd/margo_pkg.(*mGocode).completions(0xc82089cd80, 0xc8202d6c00, 0x167, 0x180, 0xc82078b8c0, 0x24, 0xc1, 0x0, 0x0, 0x0)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:95 +0x1c2
+disposa.blue/cmd/margo_pkg.(*mGocode).Call(0xc82089cd80, 0x0, 0x0, 0x0, 0x0)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:76 +0x7e7
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc82000a1c0, 0xc8207bee40, 0x7f523b4f2500, 0xc82089cd80)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0x95
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xdb
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 1 [syscall]:
+syscall.Syscall(0x0, 0x0, 0xc820148000, 0x1000, 0x0, 0x0, 0xc8207e6000)
+	/usr/lib/go/src/syscall/asm_linux_amd64.s:18 +0x5
+syscall.read(0x0, 0xc820148000, 0x1000, 0x1000, 0xc8207e62c3, 0x0, 0x0)
+	/usr/lib/go/src/syscall/zsyscall_linux_amd64.go:783 +0x5f
+syscall.Read(0x0, 0xc820148000, 0x1000, 0x1000, 0x332, 0x0, 0x0)
+	/usr/lib/go/src/syscall/syscall_unix.go:161 +0x4d
+os.(*File).read(0xc82002e008, 0xc820148000, 0x1000, 0x1000, 0x48ae7b, 0x0, 0x0)
+	/usr/lib/go/src/os/file_unix.go:228 +0x53
+os.(*File).Read(0xc82002e008, 0xc820148000, 0x1000, 0x1000, 0x8, 0x0, 0x0)
+	/usr/lib/go/src/os/file.go:95 +0x8a
+bufio.(*Reader).fill(0xc8200162a0)
+	/usr/lib/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).ReadSlice(0xc8200162a0, 0x42e20a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/usr/lib/go/src/bufio/bufio.go:328 +0x21a
+bufio.(*Reader).ReadBytes(0xc8200162a0, 0xc82015a00a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/usr/lib/go/src/bufio/bufio.go:406 +0xa9
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc82000a1c0, 0xc82015a000, 0xc82000a100)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x44
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc82000a1c0, 0xb50001)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x332
+disposa.blue/cmd/margo_pkg.Main()
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0xbd7
+main.main()
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x14
+
+goroutine 12 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 50 [chan receive, 2 minutes]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc82002e1a8)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:176 +0x7b
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:180 +0x88
+
+goroutine 65 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x96
+created by disposa.blue/cmd/margo_pkg.init.2
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x2b
+
+goroutine 66 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	/usr/lib/go/src/runtime/time.go:59 +0xf9
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:31 +0x43d
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x35
+
+goroutine 67 [sleep]:
+time.Sleep(0x6fc23ac00)
+	/usr/lib/go/src/runtime/time.go:59 +0xf9
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc82000a1c0, 0xc8200f20f0)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x33
+created by disposa.blue/cmd/margo_pkg.Main
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0xb7b
+
+goroutine 68 [chan receive, 430 minutes]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc82000a1c0)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x94
+created by disposa.blue/cmd/margo_pkg.Main
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0xba0
+
+goroutine 13 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 14 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 15 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 16 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 81 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 82 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 83 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 84 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 85 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 86 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 87 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 88 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 89 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 90 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 91 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 92 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 93 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 94 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc82000a1c0, 0xc8200da150, 0xc82015a000)
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/home/meryborn/.config/sublime-text-3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+
+
+** 2016-05-29 03:19:54.041653 **:
+GsComplete: broker: gocode_complete#mg9.autoken.c1938949-54d3-434f-9ee4-b9ace4c3c37e PANIC
+--------------------------------
+
+** 2016-05-29 22:00:33.280636 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/lib/go/pkg/linux_amd64", GOOS:"linux", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/lib/go", GOPATH:"", InstallSuffix:""}
+
+** 2016-05-30 07:25:21.515867 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/lib/go/pkg/linux_amd64", GOOS:"linux", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/lib/go", GOPATH:"", InstallSuffix:""}
+
+** 2016-05-30 07:26:13.259689 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/lib/go/pkg/linux_amd64", GOOS:"linux", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/lib/go", GOPATH:"", InstallSuffix:""}
+
+** 2016-05-30 18:33:44.108280 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/lib/go/pkg/linux_amd64", GOOS:"linux", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/lib/go", GOPATH:"", InstallSuffix:""}
+
+** 2016-05-30 19:16:02.096541 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/lib/go/pkg/linux_amd64", GOOS:"linux", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/lib/go", GOPATH:"", InstallSuffix:""}
+
+** 2016-06-01 23:54:44.198123 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/lib/go/pkg/linux_amd64", GOOS:"linux", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/lib/go", GOPATH:"", InstallSuffix:""}
+
+** 2016-06-04 06:04:05.725779 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+
+** 2016-06-04 06:04:31.958297 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/lib/go/pkg/linux_amd64", GOOS:"linux", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/lib/go", GOPATH:"", InstallSuffix:""}
+
+** 2016-06-05 23:01:04.391588 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/lib/go/pkg/linux_amd64", GOOS:"linux", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/lib/go", GOPATH:"", InstallSuffix:""}
+
+** 2016-06-06 22:49:17.887570 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+
+** 2016-06-07 16:08:12.428551 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/lib/go/pkg/linux_amd64", GOOS:"linux", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/lib/go", GOPATH:"", InstallSuffix:""}
+
+** 2016-06-08 21:38:32.961810 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+
+** 2016-06-09 00:20:58.387098 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+
+** 2016-06-10 21:08:41.343979 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/lib/go/pkg/linux_amd64", GOOS:"linux", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/lib/go", GOPATH:"", InstallSuffix:""}
+
+** 2016-06-10 21:07:13.956958 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/lib/go/pkg/linux_amd64", GOOS:"linux", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/lib/go", GOPATH:"", InstallSuffix:""}
+
+** 2016-06-10 21:10:19.450157 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+Gocode pkg: "vkbot"
+Gocode env: gocode.margoEnv{LibPath:"/usr/lib/go/pkg/linux_amd64:/home/meryborn/Go/pkg/linux_amd64", GOOS:"linux", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/lib/go", GOPATH:"/home/meryborn/Go", InstallSuffix:""}
+Gocode pkg: "vkbot"
+Gocode env: gocode.margoEnv{LibPath:"/usr/lib/go/pkg/linux_amd64:/home/meryborn/Go/pkg/linux_amd64", GOOS:"linux", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/lib/go", GOPATH:"/home/meryborn/Go", InstallSuffix:""}
+Gocode pkg: "vkbot"
+Gocode env: gocode.margoEnv{LibPath:"/usr/lib/go/pkg/linux_amd64:/home/meryborn/Go/pkg/linux_amd64", GOOS:"linux", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/lib/go", GOPATH:"/home/meryborn/Go", InstallSuffix:""}
+Gocode pkg: "webapp"
+Gocode pkg: "vkbot"
+Gocode pkg: "calculator_go"
+Gocode pkg: "512progs/1.2"
+Gocode pkg: "512progs/1.3"

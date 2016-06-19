@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Better CoffeeScript",
+		"ColorPicker",
+		"CSS Color Converter",
+		"CSS3",
+		"Emmet",
+		"G-code Syntax Highlighting",
+		"Golang Build",
+		"GoSnippets",
+		"GoSublime",
+		"Jade",
+		"Jade Snippets",
+		"Jasmine Matchers Snippets",
+		"Package Control",
+		"Sass",
+		"SASS Snippets",
+		"SideBarEnhancements",
+		"Theme - Spacegray"
+	]
+}
