@@ -5,7 +5,7 @@
 ![2](http://i.imgur.com/vHkkVSR.png)
 
 
-##My Setup
+## My Setup
     Linux Distro: arch
     Window Manager: i3-gaps
     Bar: i3blocks
